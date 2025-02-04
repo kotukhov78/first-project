@@ -4,40 +4,208 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Киану-фрилансер</title>
-    <link rel="styleshet" href="./fonts/fonts.css" />
-    <link rel="styleshet" href="./styles/style.css" />
+    <title>Киану фрилансер</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/styles.css">
   </head>
   <body>
-    <header class="header">
-      <a class="header link" href="#0">
-        <img src="./image/logo.svg" class="logo" alt="логотип">
-      </a>
-      <ul class="header social-list">
-        <li class="social-list-item">
-          <a href="#0" target="_blank">
-            <img src="./image/github.svg" class="social-icon" alt="github">
-          </a>
-        </li>
-        <li class="social-list-item">
-          <a href="#0" target="_blank">
-            <img src="./image/twitter.svg" class="social-icon" alt="twitter">
-          </a>
-        </li>
-        <li class="social-list-item">
-          <a href="#0" target="_blank">
-            <img src="./image/instagram.svg" class="social-icon" alt="instagram">
-          </a>
-        </li>
-        <li class="social-list-item">
-          <a href="#0" target="_blank">
-            <img src="./image/facebook.svg" class="social-icon" alt="facebook">
-          </a>
-        </li>
-      </ul>
+    <header class="content header">
+      <div class="header_links">
+        <a class="link" href="#0">
+          <img src="./images/logo.svg" class="logo" alt="логотип">
+        </a>
+        <ul class="header social-list">
+          <li class="social-list-item">
+            <a href="#0" target="_blank">
+              <img src="./images/github.svg" class="social-icon" alt="github">
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="#0" target="_blank">
+              <img src="./images/twitter.svg" class="social-icon" alt="twitter">
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="#0" target="_blank">
+              <img src="./images/instagram.svg" class="social-icon" alt="instagram">
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="#0" target="_blank">
+              <img src="./images/facebook.svg" class="social-icon" alt="facebook">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="hero">
+        <div class="hero_about">
+          <p class="frilance">Фрилансер</p>
+          <h1 class="title">
+            <span>Петр Федоров</span>
+          </h1>
+          <p class="text_about">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+          <button class="hero-button" type="button">Бесплатная консультация</button>
+        </div>
+        <div class="hero_avatar">
+          <img src="./images/avatar.png" class="avatar" alt="ава">
+        </div>
+      </div>
     </header>
     <main>
-
+      <section class="dark_theme">
+        <div class="content features">
+          <h2 class="under_title">Со мной удобно работать</h2>
+          <div class="conteiner">
+            <div class="cell">
+              <img src="./images/offer-img.svg" class="icon" alt="иконка">
+              <h3 class="under_title">По договору</h3>
+              <p class="text_about">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+            </div>
+            <div class="cell">
+              <img src="./images/deadline-img.svg" class="icon" alt="иконка">
+              <h3 class="under_title">Точно в срок</h3>
+              <p class="text_about">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
+            </div>
+            <div class="cell">
+              <img src="./images/agreement-img.svg" class="icon" alt="иконка">
+              <h3 class="under_title">Ценник под вас</h3>
+              <p class="text_about">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+            </div>
+            <div class="cell">
+              <img src="./images/steps-img.svg" class="icon" alt="иконка">
+              <h3 class="under_title">Премежуточные итоги</h3>
+              <p class="text_about">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
+            </div>
+            <div class="cell">
+              <img src="./images/storage-img.svg" class="icon" alt="иконка">
+              <h3 class="under_title">Хостинг и домен</h3>
+              <p class="text_about">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+            </div>
+            <div class="cell">
+              <img src="./images/conversation-img.svg" class="icon" alt="иконка">
+              <h3 class="under_title">Не брошу после сдачи</h3>
+              <p class="text_about">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="content portfolio">
+        <h2 class="under_title">Выполненные проекты</h2>
+        <ul class="proects_menu">
+          <li class="proects_item curious">
+            <div class="overlay"></div>
+            <h3 class="under_title">The curious corner<br>chamarel</h3>
+            <button class="portfolio_button" type="button">Посмотреть</button>
+          </li>
+          <li class="proects_item golf">
+            <div class="overlay"></div>
+            <h3 class="under_title">Gymkhana club golf<br>course</h3>
+            <button class="portfolio_button" type="button">Посмотреть</button>
+          </li>
+          <li class="proects_item trip">
+            <div class="overlay"></div>
+            <h3 class="under_title">Tamarind falls hiking<br>trip - full day</h3>
+            <button class="portfolio_button" type="button">Посмотреть</button>
+          </li>
+        </ul>
+      </section>
+      <section class="dark_theme">
+        <div class="content gallery">
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle1.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle2.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle3.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle4.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle5.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle6.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle7.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle8.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle9.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/Rectangle10.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/video11.png" class="foto" alt="фото"> 
+          </a>
+          <a href="#0" class="gallery_item">
+            <img src="./images/image12.png" class="foto" alt="фото"> 
+          </a>
+        </div>
+      </section>
     </main>
+    <footer class="content footer">
+      <h2 class="under_title">Свяжитесь со мной</h2>
+      <div class="contact_table">
+        <div class="form">
+          <h3 class="under_title">Можете просто оставить заявку, я позвоню вам сегодня</h3>
+          <div class="inputs_users">
+            <div class="input_block">
+              <img src="./images/user-icon.png" class="form_icon" alt="иконка">
+              <p class="name">Ваше имя</p>
+            </div>
+            <div class="input_block">
+              <img src="./images/Vector.png" class="form_icon" alt="иконка">
+              <p class="name">Ваш телефон</p>
+            </div>
+          </div>
+          <button class="hero-button" type="button">Бесплатная консультация</button>
+        </div>
+        <div class="contacts_sheet">
+          <div class="contacts">
+            <div class="contacts_item">
+              <h3 class="under_title">Телефон</h3>
+              <p class="contacts_text">+7 999 123 45 67</p>
+            </div>
+            <div class="contacts_item">
+              <h3 class="under_title">Почта</h3>
+              <p class="contacts_text">ivanov@mail.ru</p>
+            </div>
+            <div class="contacts_item">
+              <h3 class="under_title">Соцсети</h3>
+              <ul class="footer social-list">
+                <li class="social-list-item">
+                  <a href="#0" target="_blank">
+                    <img src="./images/github.svg" class="social-icon" alt="github">
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#0" target="_blank">
+                    <img src="./images/twitter.svg" class="social-icon" alt="twitter">
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#0" target="_blank">
+                    <img src="./images/instagram.svg" class="social-icon" alt="instagram">
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="#0" target="_blank">
+                    <img src="./images/facebook.svg" class="social-icon" alt="facebook">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#0" class="politics" target="_blank">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

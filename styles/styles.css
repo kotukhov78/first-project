@@ -1,0 +1,317 @@
+body {
+    width: 1280px;
+    background-color: #1B2944;
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.dark_theme {
+    width: 100%;
+    background-color: #141F35;
+}
+
+.content {
+    max-width: 944px;
+    min-height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.header_links {
+    padding: 40px 0 84px 0;
+    min-height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .social-list {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding-top: 2px;
+}
+
+.hero {
+    display: flex;
+    gap: 96px;
+    padding-bottom: 84px;
+}
+
+.hero_about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 23px;
+}
+
+.frilance {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFBB01;
+    padding: 14px 0 12px 0;
+    line-height: 28px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    line-height: 59px;
+    padding-bottom: 14px;
+}
+
+.text_about {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0 38px 0;
+    line-height: 28px;
+}
+
+.hero-button {
+    cursor: pointer;
+    min-width: 300px;
+    min-height: 66px;
+    background: #FFBB01;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1B2944;
+    align-self: start;
+    border-radius: 6px;
+}
+
+.avatar {
+    max-width: 384px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.under_title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    line-height: 42px;
+    padding: 88px 0 48px 0;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 304px 304px 304px;
+    grid-template-rows: 200px 206px;
+    gap: 48px 16px;
+    justify-content: center;
+    padding: 0 0 88px 0;
+}
+
+.conteiner .under_title {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.conteiner .text_about {
+    line-height: 28px;
+    padding: 0;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 88px;
+}
+
+.proects_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 304px;
+    column-gap: 16px;
+    list-style-type: none;
+}
+
+.proects_item {
+    position: relative;
+    border-radius: 6px;
+    padding: 32px 32px;
+    align-content: end;
+}
+
+.curious {
+    background-image: url(../images/Rectangle\ 22.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.golf {
+    background-image: url(../images/Rectangle\ 22\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.trip {
+    background-image: url(../images/Rectangle\ 22\ \(3\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    background-image: url(../images/Rectangle\ 23.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 60%;
+    inset: 0;
+}
+
+.proects_item .under_title {
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 16px;
+    z-index: 2;
+}
+
+.portfolio_button {
+    position: relative;
+    cursor: pointer;
+    min-width: 120px;
+    min-height: 36px;
+    background: #EC1F46;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    align-self: start;
+    border-radius: 6px;
+    z-index: 2;
+}
+
+.gallery {
+    display: flex;
+    flex-basis: 224px;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    column-gap: 16px;
+    padding: 88px 0 84px 0;   
+}
+
+.footer {
+    padding-bottom: 88px;
+}
+
+.contact_table {
+    display: grid;
+    grid-template-columns: 464px 1fr;
+    column-gap: 96px;
+}
+
+.form {
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 38px 32px 42px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 8px;
+}
+
+.form .under_title {
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+    text-align: center;
+}
+
+.inputs_users {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input_block {
+    background-color: #F8F8F8;
+    min-height: 70px;
+    border-radius: 8px;
+    display: flex;
+    gap: 14px;
+    padding-left: 32px;
+    align-items: center;
+}
+
+.form_icon {
+    max-width: 16px;
+    max-height: 18px;
+}
+
+.name {
+    font-size: 14px;
+    line-height: 28px;
+    color: #949494;
+    text-align: center;
+}
+
+.form .hero-button {
+    min-width: 400px;
+    min-height: 66px;
+}
+
+.contacts_sheet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 32px;
+}
+
+.contacts_item {
+    min-width: 144px;
+    min-height: 72px;
+
+}
+
+.contacts .under_title {
+    padding-top: 0;
+    padding-bottom: 16px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.footer .social-list {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.contacts_text {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.politics {
+    font-size: 15px;
+    line-height: 18px;
+    color: #949494;
+}
