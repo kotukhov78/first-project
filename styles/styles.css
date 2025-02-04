@@ -124,7 +124,7 @@ blockquote {
 
 .conteiner .under_title {
     font-size: 24px;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 .conteiner .text_about {
@@ -135,7 +135,7 @@ blockquote {
 .portfolio {
     display: flex;
     flex-direction: column;
-    padding-bottom: 88px;
+    padding-bottom: 87px;
 }
 
 .proects_menu {
@@ -198,8 +198,9 @@ blockquote {
     font-size: 12px;
     line-height: 16px;
     color: #FFFFFF;
-    align-self: start;
     border-radius: 6px;
+    border: #EC1F46;
+    box-shadow: 0 2px #CE1C3E;
     z-index: 2;
 }
 
@@ -230,6 +231,7 @@ blockquote {
     flex-direction: column;
     gap: 32px;
     border-radius: 8px;
+    box-shadow: -5px 5px #FFC41D;
 }
 
 .form .under_title {
